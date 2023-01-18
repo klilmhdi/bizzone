@@ -1,0 +1,221 @@
+@media (min-width: 911px) and (max-width: 1024px) {
+  .carousel-caption {
+    padding-bottom: 60px !important;
+}
+
+.carousel-caption h1 {
+      font-size: 45px !important;
+  }
+  .section-head .section-title {
+    font-size: 32px;
+  }
+  h1.main-title {
+    font-size: 32px;
+  }
+  #main-banner .contents h1 {
+    font-size: 34px;
+    line-height: 48px;
+  }
+  #main-banner .contents h3 {
+    color: #fff;
+    font-size: 22px;
+    padding:0;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 8px 0px;
+    font-size: 13px;
+  }
+  .item-box h4 {
+    font-size: 18px;
+  }
+
+  #about .about-img{
+    margin-top: 30px;
+  }
+
+  #features .box-item .text h4 {
+    font-size: 12px;
+  }
+  #features .content-left .text {
+    margin-right: 85px;
+  }
+  #features .content-right .text {
+    margin-left: 85px;
+  }
+  .subscribe-box input[type="text"] {
+    padding: 6px 10px;
+  }
+
+  #why-us{
+    padding-bottom: 50px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 911px) {
+    .carousel-caption {
+      padding-bottom: 38px !important;
+    }
+    .carousel-caption h1 {
+      font-size: 34px !important;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+   .navbar.fixed-top {
+    position: relative;
+  }
+  #top-nav{
+    position: relative;
+  }
+   .tbl-cell h1 {
+    font-size: 45px;
+  }
+  .about-title{
+    padding-bottom: 30px;
+  }
+   .fun-bottom {
+    position: relative;
+    bottom: -60px;
+  }
+  #about{
+    margin-top: 0;
+  }
+  .carousel-caption {
+    display: none;
+  }
+  .section-head .section-title {
+    font-size: 30px;
+  }
+  h1.main-title {
+    font-size: 30px;
+  }
+  .menu-wrap {
+    padding: 10px;
+  }
+  .icon-list a {
+    padding: 5px 0;
+  }
+  .icon-list a::before {
+    top: 5px;
+  }
+  .bg-faded {
+    background: #fff!important;
+  }
+  #main-banner .contents h1 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+   #main-banner .contents h3 {
+    color: #fff;
+    font-size: 20px;
+    padding:0;
+  }
+  #about .about-img{
+    margin-top: 30px;
+  }
+  #features .content-right span {
+    float: none;
+  }
+  #features .content-left span {
+    float: none;
+  }
+  #features .box-item .text h4 {
+    font-size: 14px;
+  }
+  .table-left {
+    margin: 0px 0px 30px;
+  }
+  .counters{
+    padding-bottom: 50px;
+  }
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+   #why-us{
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+  }
+  .navbar.fixed-top {
+    position: relative;
+  }
+  #top-nav{
+    position: relative;
+  }
+  .tbl-cell h1 {
+    font-size: 35px;
+  }
+ 
+  .about-title{
+    padding-bottom: 30px;
+  }
+   .fun-bottom {
+    position: relative;
+    bottom: -60px;
+  }
+  #about{
+    margin-top: 0;
+  }
+  .carousel-caption {
+    display: none;
+  }
+  .bg-faded {
+    background: #fff!important;
+  }
+  .section-head .section-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+   h1.main-title {
+     font-size: 20px;
+  }
+  #main-banner .contents {
+    padding: 80px 0 60px;
+  }
+  #main-banner .contents h1 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+   #main-banner .contents h3 {
+    color: #fff;
+    font-size: 20px;
+    padding:0;
+  }
+  .video-item .video-item-content h2 {
+    font-size: 18px;
+  }
+  #about .about-img{
+    margin-top: 30px;
+  }
+  .pricing-tables .pricing-table {
+    margin-bottom: 30px;
+  }
+  #blog .blog-item-text h3 {
+    font-size: 18px;
+  }
+  #blog .blog-item-text .meta-tags span {
+    margin-right: 5px;
+  }
+  .counters .facts-item {
+    margin-bottom: 30px;
+  }
+   #why-us{
+    padding-bottom: 50px;
+  }
+  #contact .section-title {
+    font-size: 22px;
+  }
+  #subscribe .sub_btn {
+    min-width: 120px;
+  }
+  .social-icons ul li a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+  }
+}

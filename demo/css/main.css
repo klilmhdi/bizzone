@@ -1,0 +1,204 @@
+/* -----------------------------------
+:: 1. Base CSS Start
+------------------------------------ */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    background-color: #fff;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+{
+    font-weight: 400
+    color: #53575a !important;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+p {
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+}
+a{
+  color: #53575a;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.btn{
+      padding: 10px 40px;
+    border-radius: 25px;
+}
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+button:focus {
+  outline: none;
+}
+
+section{
+  padding: 60px 0;
+}
+
+.section-heading{
+  margin-bottom: 60px;
+}
+
+.section-title {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.line-title {
+    width: 100px;
+    height: 2px;
+    background-color: #13b5ea;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-left: calc(48% - 25px);
+}
+
+/*-------------------------------------------------------------------------------------
+    Image Banner
+---------------------------------------------------------------------------------------*/
+
+#main-banner {
+    background-image: url('../img/slide3.jpg');
+    background-position: top;
+}
+
+.caption-content {
+    padding: 8% 10% 9%;
+}
+
+.caption-content p{
+    margin: auto;
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.color-white {
+    color: #fff;
+}
+.tbl-cell h1 {
+    font-size: 55px;
+    line-height: 70px;
+}
+
+/*==============================
+	Demo
+==============================*/
+.demo__box {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px 0px rgba(49, 48, 53, 0.2);  
+}
+.demo__img {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  background-color: #212121;
+}
+.demo__img:before {
+  content: 'Coming soon';
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}
+.demo__img img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 100%;
+  -webkit-transform: translateY(-351px);
+  -moz-transform: translateY(-351px);
+  transform: translateY(-351px);
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.demo__img:hover img {
+  -webkit-transition: 6s linear;
+  -moz-transition: 6s linear;
+  transition: 6s linear;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.demo__title {
+  color: #303030;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .demo__box {
+    margin-top: 50px;
+  }
+  .demo__img {
+    height: 300px;
+  }
+  .demo__img img {
+    -webkit-transform: translateY(-300px);
+    -moz-transform: translateY(-300px);
+    transform: translateY(-300px);
+  }
+}
+@media (min-width: 1200px) {
+  .demo__img {
+    height: 350px;
+  }
+  .demo__img img {
+    -webkit-transform: translateY(-351px);
+    -moz-transform: translateY(-351px);
+    transform: translateY(-351px);
+  }
+  .demo__img:hover img {
+    -webkit-transition: 8s linear;
+    -moz-transition: 8s linear;
+    transition: 8s linear;
+  }
+}
+
